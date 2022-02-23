@@ -7,12 +7,16 @@ import 'package:firebase_core/firebase_core.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  FirebaseMessaging.instance.getToken().then((token) {
-    Console.log('FCM TOKEN:');
-    Console.log(token);
-    Console.log('END');
 
+  // FCM token
+  FirebaseMessaging.onMessage.listen((event) {
+    var message = event;
   });
+
+  FirebaseMessaging.onMessageOpenedApp.listen((event) {
+    var message = event;
+  });
+
   runApp(const MyApp());
 }
 
