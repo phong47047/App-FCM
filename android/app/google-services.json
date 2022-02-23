@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770327931656",
+    "project_id": "ltdd2-fcfb8",
+    "storage_bucket": "ltdd2-fcfb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770327931656:android:a40892738c423849a5dabd",
+        "android_client_info": {
+          "package_name": "com.example.ltdd2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770327931656-9bjoann1ftc4pgagn9p605ikruqsuehc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6-vK95fLX5vXBWleYB_aeFI5Kq0mi7F0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770327931656-9bjoann1ftc4pgagn9p605ikruqsuehc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
